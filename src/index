@@ -1,3 +1,7 @@
-#!/usr/bin/env node
+#!/usr/bin/env node -r esm
 
-console.log("hi");
+import fetch from "node-fetch";
+
+await fetch("https://github.com/fancn21th/naming-by-pinyin/issues").then(
+  (result) => console.log(result)
+);

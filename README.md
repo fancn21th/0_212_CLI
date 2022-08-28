@@ -1,5 +1,3 @@
 # 0_212_CLI
 
-## chmod
-
-`chmod +x ./src/index`
+[教学]（https://fancn21th.cn/zh/node/cli.html）

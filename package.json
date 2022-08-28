@@ -1,0 +1,28 @@
+{
+  "name": "0_212_CLI",
+  "version": "1.0.0",
+  "description": "[教学]（https://fancn21th.cn/zh/node/cli.html）",
+  "main": "/src/index",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancn21th/0_212_CLI.git"
+  },
+  "keywords": [],
+  "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fancn21th/0_212_CLI/issues"
+  },
+  "homepage": "https://github.com/fancn21th/0_212_CLI#readme",
+  "dependencies": {
+    "esm": "3.2.25",
+    "node-fetch": "2.6.7"
+  },
+  "esm": {
+    "await": true
+  }
+}
