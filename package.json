@@ -20,6 +20,7 @@
   "homepage": "https://github.com/fancn21th/0_212_CLI#readme",
   "dependencies": {
     "esm": "3.2.25",
+    "globals": "file:globals",
     "node-fetch": "2.6.7"
   },
   "esm": {

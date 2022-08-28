@@ -1,6 +1,4 @@
-#!/usr/bin/env node -r esm
-
-import fetch from "node-fetch";
+#!/usr/bin/env node -r esm -r globals
 
 await fetch("https://github.com/fancn21th/naming-by-pinyin/issues").then(
   (result) => console.log(result)
