@@ -1,5 +1,15 @@
-#!/usr/bin/env node -r esm -r globals
+#!/usr/bin/env -S NODE_PATH=/Users/fancn/2022/node/0_212_CLI/node_modules ESM_OPTIONS='{mode:"auto",cache:0}' node -r esm -r globals
 
-await fetch("https://github.com/fancn21th/naming-by-pinyin/issues").then(
-  (result) => console.log(result)
-);
+if (!$1) {
+  throw new Error("no arguments provided!");
+}
+
+// https://github.com
+
+console.log($1);
+
+const response = await fetch($1);
+
+const data = await response.text();
+
+console.log(data);
